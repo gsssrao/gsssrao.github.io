@@ -1,0 +1,117 @@
+{
+  "heading" : {
+    "en" : "Projects"},
+
+  "projects" : [ 
+
+    { "key"       : "2017-rnn-gan",
+      // "bibtex"    : "led2012-sky-phenomena.bib",
+      "title"     : "Modeling Physics underlying visual inputs using Contextual RNN-GANs",
+      "date"      : "2017-11-01",
+      // "authors"   : [ "G S S Srinivas Rao", "Neeraj Thakur", "Vinay P. Namboodiri" ],
+      "published" : "August to December ",
+      
+      "abstract"  : "Understanding the motion of objects in order to predict and control their movements is one of the crucial problems in Artificial Intelligence (AI). It is evident that humans and a large number of animals possess this extraordinary ability of easily manipulating object motion using visual inputs. For example, it enables humans to drive vehicles safely, play games like billiards and football, navigate in crowded and newer environments. This seemingly simple, but stark, ability raises the natural question— how is the visual input used to infer and understand the motion of surrounding objects. Some recent works propose an explanatory framework based on generative physics representations, which states that the brain infers and retains a noisy, but detailed, representation of physics underlying the motion of objects and uses generative simulations based on these representations for predicting the object motion. In view of these works, it is extremely interesting and intellectually challenging to study how can such representations of physics underlying the visual inputs be modeled. Also, a model of the physical constraints on the visual inputs can be used to perform simulations, forecast object interactions and generate video sequences of moving objects. All of these potential applications are highly challenging problems in computer vision. In view of this, we aim to study the problem of modeling abstractions of physics that underlie given visual inputs and propose a contextual RNN-GAN based approach to learning these models.",
+
+      "thumbnail" : "rnn-gan.png",
+      // "flickr"    : "72157650186586300",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/1lX_wLzywFwJjdZPpoUFzR97-_ESLSzlU/view?usp=sharing",
+          "desc"  : "Report"
+        }
+      ],
+    },
+
+    { "key"       : "2017-novel-view",
+      // "bibtex"    : "led2012-sky-phenomena.bib",
+      "title"     : "Novel View Synthesis",
+      "date"      : "2017-08-01",
+      "authors"   : [ "Research Intern, ", "Fyusion Inc., San Francisco" ],
+      "published" : "May to August ",
+      
+      // "abstract"  : "",
+
+      "thumbnail" : "voxel-flow.png",
+      // "flickr"    : "72157650186586300",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/1gM7kg4YZ8bigRYp1qxPYPqTSTJpfoemh/view?usp=sharing",
+          "desc"  : "Result-Sequence-1"
+        }
+      ],
+    },
+
+    { "key"       : "2016-cross-modality",
+      // "bibtex"    : "lwtd2013-web-based-swmaps.bib",
+      "title"     : "Cross Modality Supervision Transfer based Depth Estimation",
+      "date"      : "2016-12-01",
+      // "authors"   : [ "Sandeep Reddy", "G S S Srinivas Rao", "Rajesh M Hegde"],
+      "published" : "September to December ",
+      
+      "abstract"  : "We propose to develop a model for depth maps estimation for an RGB sensor using the approach of supervision transfer across multiple modalities including– i. RGB and ii. Depth. The problem statement can be described as follows– We want to generate a model for depth estimation for a given RGB sensor. For this task, we consider another RGBD sensor and capture image frames that have some overlap in their field of view. We aim to learn CNN based representations for Depth of the RGB sensor using informations from the two sensors using supervision transfer across the different image modalities. We next aim to learn “invertible” CNNs to get partial network that can generate depth maps. If successful, the novel approach would add an extra modality, Depth, for the RGB sensor. The motivations for taking up this ambitious big project are twofold– i. It is an unexplored problem and has significant research value in contemporary field of vision ii. If successful, this approach will have multiple applications of immense practical importance. One such example is autonomous cars, where camera and depth sensor do not have identical field of view. It can be used in making low-cost motion capturing systems by replacing some of its many RGBD sensors with RGB cameras.",
+
+      "thumbnail" : "cross-modality.png",
+      // "flickr"    : "72157650179270797",
+      "downloads" : [
+        { "href"  : "https://drive.google.com/file/d/0BzixkIU4HFlya2hUQmNuN0R6QVk/view?usp=sharing",
+          "desc"  : "Report"
+        },
+        {
+          "href"  : "https://drive.google.com/file/d/0BzixkIU4HFlyM2lCOVZhUTJJcFU/view?usp=sharing",
+          "desc"  : "Presentation" 
+        }
+       ],
+    },
+
+    { "key"       : "2016-rgbd-material",
+      // "bibtex"    : "ld2014-parameter-painting.bib",
+      "title"     : "RGBD Material Editing using commodity depth sensors",
+      "date"      : "2016-07-01",
+      "authors"   : [  "Research Intern, INRIA Sophia Antipolis, France (supervised by George Drettakis", "Adrien Bousseau", "Erik Reinhard)" ],
+      "published" : "May to July ",
+      
+      "abstract"  : "We describe three approaches for texture synthesis based on material editing of indoor scenes using the data obtained from a commodity depth sensors. In the first approach we propose an extended version of patch match for material texture synthesis. The second approach is more of data- centric approach where we propose a combination of patch regression trained on a dataset and patch match based ap- proach for texture synthesis. In the third and final approach we exploit the recent advances in deep learning systems to develop an end to end pipeline for texture synthesis. The input for our system is an RGB image and a corresponding depth/normal map captured by a Kinect sensor. Material editing is carried out by changing depth/normals in a region of the image. Once editing is done, we use the proposed tex- ture synthesis algorithms to create real-like texture in the changed region of the image. We observe that the proposed approaches are able to capture structures effectively and also able to synthesize real-like textures. Each of the methods have their own limitations which are discussed in the indi- vidual sections. At the moment our approach is single view and runs offline on a PC.",
+
+      "thumbnail" : "material-edit.png",
+      // "flickr"    : "72157650124474077",
+      "downloads" : [
+        {
+          "href"  : "https://drive.google.com/file/d/1C8SN1eJ_BwDTGNvD1XrlP9_GhZsjfkud/view?usp=sharing",
+          "desc"  : "Presentation"
+        },
+        { 
+          "href"  : "https://drive.google.com/file/d/0BzixkIU4HFlyYnpyZUltV2NXR0E/view?usp=sharing",
+          "desc"  : "Report-1"
+        },
+        { "href"  : "https://drive.google.com/file/d/0BzixkIU4HFlybVR0eFlQZTJkY28/view?usp=sharing",
+          "desc"  : "Report-2"
+        } 
+      ],
+    },
+
+    { "key"       : "2016-realtime-3d",
+      // "bibtex"    : "ld2014-parameter-painting.bib",
+      "title"     : "Realtime 3D reconstruction based Mixed Reality",
+      "date"      : "2016-04-01",
+      // "authors"   : [  "Research Intern, INRIA Sophia Antipolis, France (supervised by George Drettakis", "Adrien Bousseau", "Erik Reinhard)" ],
+      "published" : "January to April ",
+      
+      "abstract"  : "In this project, we develop a technique to create a mixed reality application where virtual objects can smartly interact with physical world. The aim of the project is to build a framework for developing various applications like helping challenged people, interactive visualizations and gaming. One of the application whose demo was shown was furniture placement in The project developed on Project Tango device [1] involves stitching of meshes acquired from the 3D point cloud data. We explore both online as well as offline techniques for stitching of meshes. Further, we augment virtual objects with animation and comprehensive interactions to forge a mixed reality and an alternate virtual reality (using a Head Mounted Display). The novelty of the proposed scheme is that all the processes except segmentation and path planning are executed real-time.",
+
+      "thumbnail" : "realtime-3d.png",
+      // "flickr"    : "72157650124474077",
+      "downloads" : [
+        {
+          "href"  : "https://drive.google.com/file/d/0BzixkIU4HFlybGdCeW83YWtPcWs/view?usp=sharing",
+          "desc"  : "Report"
+        },
+        { 
+          "href"  : "https://drive.google.com/file/d/0BzixkIU4HFlyRjdlbFdRYncyalk/view?usp=sharing",
+          "desc"  : "Video"
+        }
+      ],
+    }
+
+    
+  ]
+
+}

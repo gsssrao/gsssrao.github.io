@@ -1,0 +1,77 @@
+{
+  "heading" : {
+    "en" : "Publications"},
+
+  "publications" : [ 
+
+    { "key"       : "2017-reactive-displays",
+      // "bibtex"    : "led2012-sky-phenomena.bib",
+      "title"     : "Reactive Displays for Virtual Reality",
+      "date"      : "2017-11-01",
+      "authors"   : [ "G S S Srinivas Rao", "Neeraj Thakur", "Vinay P. Namboodiri" ],
+      "published" : "Proceedings of 16th IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct), Nantes, France,",
+      
+      "abstract"  : "The feeling of presence in virtual reality has enabled a large number of applications. These applications typically deal with 360° content. However, a large amount of existing content is available in terms of images and videos i.e 2D content. Unfortunately, these do not react to the viewer's position or motion when viewed through a VR HMD. Thus in this work, we propose reactive displays for VR which instigate a feeling of discovery while exploring 2D content. We create this by taking into account user's position and motion to compute homography based mappings that adapt the 2D content and re-project it onto the display. This allows the viewer to obtain a more richer experience of interacting with 2D content similar to the effect of viewing through the window at a scene. We also provide a VR interface that uses a constrained set of reactive displays to easily browse through 360° content. The proposed interface tackles the problem of nausea caused by existing interfaces like photospheres by providing a natural room-like intermediate interface before changing 360° content. We perform user studies to evaluate both of our interfaces. The results show that the proposed reactive display interfaces are indeed beneficial.",
+
+      "thumbnail" : "reactive-displays.png",
+      // "flickr"    : "72157650186586300",
+      "downloads" : [
+        { "href"  : "https://doi.org/10.1109/ISMAR-Adjunct.2017.33",
+          "desc"  : "DOI"
+        },
+        { "href"  : "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8088450",
+          "desc"  : "Paper"
+        },
+        { "href"  : "https://drive.google.com/file/d/0BzixkIU4HFlyWUozTVMwUEZ2dWs/view?usp=sharing",
+          "desc"  : "Video"
+        },
+        { "href"  : "https://drive.google.com/file/d/1lnfl-lhjM5y0jtIvNQeoco3AIVkVZbre/view?usp=sharing",
+          "desc"  : "Poster"
+        } ],
+    },
+
+    { "key"       : "2016-dynamic-vr",
+      // "bibtex"    : "lwtd2013-web-based-swmaps.bib",
+      "title"     : "On the Development of a Dynamic Virtual Reality System using Audio and Visual Scenes",
+      "date"      : "2016-05-01",
+      "authors"   : [ "Sandeep Reddy", "G S S Srinivas Rao", "Rajesh M Hegde"],
+      "published" : "IEEE NCC 2016, IIT Guwhati",
+      
+      "abstract"  : "Virtual reality systems have been widely used in many popular and diverse applications including education and gaming. However, development of a dynamic virtual reality system which combines both audio and visual scenes has hitherto not been investigated. In this work a dynamic virtual reality system which synchronizes both audio and visual information is developed. Realtime audio and visual information is obtained from a spherical audio visual camera with 64 microphones and 5 cameras. Subsequently, a head mounted display application is designed to render spherical video. A three dimensional sound rendering algorithm using head related transfer functions is developed. Finally, a virtual reality system that combines both spherical audio and video is realized. The head position of the user is also integrated into this system adaptively to make the system dynamic. Both subjective and objective evaluations of the proposed virtual reality system indicate its significance.",
+
+      "thumbnail" : "spatial-audio.png",
+      // "flickr"    : "72157650179270797",
+      "downloads" : [
+        { "href"  : "https://doi.org/10.1109/NCC.2016.7561204",
+          "desc"  : "DOI"
+        },
+        { "href"  : "http://ieeexplore.ieee.org/document/7561204/",
+          "desc"  : "Paper"
+        },
+       ],
+    },
+
+    { "key"       : "2015-optical-flow",
+      // "bibtex"    : "ld2014-parameter-painting.bib",
+      "title"     : "High Accuracy Optical Flow based Future Image Predictor Model",
+      "date"      : "2015-09-01",
+      "authors"   : [  "Nishchal K. Verma", "Dhekane Eeshan Gunesh", "G. S. S. Srinivas Rao", "Aakansha Mishra" ],
+      "published" : "IEEE AIPR 2015, Washington DC",
+      
+      "abstract"  : "In this paper, High Accuracy Optical Flow (HAOF) based future image frames generator model is proposed. The aim of this work is to develop a framework which is capable of predicting the future image frames for any given sequence of images. The requirement is to predict large number of image frames with better clarity and better accuracy. In the first step, the vertical and horizontal components of flow velocities of the intensities at each pixel positions are estimated using High Accuracy Optical Flow (HAOF) algorithm. The estimated flow velocities in all the image frames at all the pixel positions are then modeled using separate Artificial Neural Networks (ANN). The trained models are used to predict the flow velocities of intensities at all the pixel positions in the future image frames. The intensities at all the pixel positions are mapped to new positions by using the velocities predicted by the model. The concept of Bilinear Interpolation is used to obtain predicted images from the new positions of intensities. The quality of the predicted image frames is evaluated by using Canny Edge Detection based Image Comparison Metric (CIM) and Mean Structural Similarity Index Measure (MSSIM). The predictor model is simulated by applying it on the two image sequences-an image sequence of a fighter jet landing over the navy deck, and another image sequence of a train moving on a bridge. The proposed framework is found to give promising results with better clarity and better accuracy.",
+
+      "thumbnail" : "haof.png",
+      // "flickr"    : "72157650124474077",
+      "downloads" : [
+        { "href"  : "10.1109/AIPR.2015.7444534",
+          "desc"  : "DOI"
+        },
+        { "href"  : "http://ieeexplore.ieee.org/document/7444534/",
+          "desc"  : "Paper"
+        } ],
+    }
+
+    
+  ]
+
+}

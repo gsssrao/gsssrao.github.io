@@ -1,0 +1,64 @@
+{ 
+  "heading" : {
+    "en" : "Talks"},
+
+  "talks" : [
+
+    { "date"      : "2017-10-14 00:00:00",
+      "title"     : "ARCore and Tango with the Unity SDK",
+      "location"  : "Google Developer Groups, Brussels",
+      "downloads" :
+      [  
+        {
+          "href" : "https://www.meetup.com/gdg-brussels/events/243246115/",
+          "desc" : "Event Page"
+        },
+        {
+          "href" : "https://www.youtube.com/watch?v=lwEnKLTP8tY&t=1s",
+          "desc" : "Video"
+        }
+      ] 
+    },
+    { "date"      : "2016-6-25 00:00:00",
+      "title"     : "Project Tango - Learn and Touch",
+      "location"  : "Google Developer Groups, Brussels",
+      "downloads" :
+      [ 
+        {
+          "href"  : "http://vrlab-brussels.info/wiki/pub/PresentationTangoBrussels.pdf",
+          "desc"  : "Slides"
+        },
+        { "href"  : "https://www.youtube.com/watch?v=BsUFb9gv1NE",
+          "desc"  : "Video"
+        } ] 
+    },
+    { "date"      : "2016-06-11 00:00:00",
+      "title"     : "Introduction to Google's Project Tango",
+      "location"  : "Stuttgart VR & AR Meetup, Stuttgart, Germany",
+      "downloads" :
+      [ 
+        {
+          "href"  : "https://www.meetup.com/Stuttgart-VR-AR-Meetup/events/228183902/",
+          "desc"  : "Event Page"
+        },
+        { "href"  : "https://drive.google.com/file/d/0B8UTMGt0lbSGbUpCamNuR25aQ0k/view?usp=sharing",
+          "desc"  : "Slides"
+        },
+        {
+        "href"  : "https://www.stuttgarter-zeitung.de/inhalt.virtuelle-realitaet-eintauchen-in-die-ueber-wirklichkeit.c66af67d-b1f5-4b50-86a8-416601085c63.html",
+          "desc"  : "Featured in Stuttgarter Zeitung"
+        }
+      ] 
+    },
+    { "date"      : "2016-05-18 00:00:00",
+      "title"     : "Introduction to Google's Project Tango",
+      "location"  : "Google Developers Group, Nice, France",
+      "downloads" :
+      [ 
+        {
+          "href"  : "https://www.meetup.com/GDGNice/events/230346062/",
+          "desc"  : "Event Page"
+        }
+      ] 
+    } ]
+}

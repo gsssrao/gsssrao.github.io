@@ -1,0 +1,46 @@
+{ 
+  "heading" : {
+    "en" : "Contact"},
+
+  // "vcard" : {
+  //   "file" : "/vcard.vcf",
+  //   "qr_svg" : "vcard-qr.svg",
+  //   "qr_fallback" : "vcard-qr.png" },
+
+  // "vcard_label" : {
+  //   "label" : {
+  //     "en" : "vCard"},
+  //   "download_file" : {
+  //     "en" : "Download file" },
+  //   "scan_qr_code" : {
+  //     "en" : "or scan QR code:"}},
+
+  "email" : "sairao1996@gmail.com", 
+
+  "email_label" : {
+    "en" : "E-Mail" },
+
+  "alternative_emails" : [ 
+  	"gsssrao@iitk.ac.in", 
+  	"srao@fyusion.com" ],
+
+  "alternative_label" : {
+    "en" : "Other"},
+
+  // "phone" : { 
+  //   "en" : "+49 163 568 2818"},
+
+  // "phone_label" : {
+  //   "en" : "Phone"},
+
+  "refs" : [ 
+  	{ "name" : "GitHub", "href" : "https://github.com/gsssrao" },
+    { "name" : "Google+", "href" : "https://plus.google.com/u/0/107028785825750725408" },
+  	{ "name" : "Flipboard", "href" : "https://flipboard.com/@gsssrao" },
+  	{ "name" : "YouTube", "href" : "https://www.youtube.com/channel/UCn_clMMllo53u6S8ZjF56oQ" },
+  	],
+
+  "refs_label" : {
+    "en" : "More"},
+
+}
