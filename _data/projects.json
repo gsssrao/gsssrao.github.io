@@ -22,24 +22,6 @@
       ],
     },
 
-    { "key"       : "2017-novel-view",
-      // "bibtex"    : "led2012-sky-phenomena.bib",
-      "title"     : "Novel View Synthesis",
-      "date"      : "2017-08-01",
-      "authors"   : [ "Research Intern, ", "Fyusion Inc., San Francisco" ],
-      "published" : "May to August ",
-      
-      // "abstract"  : "",
-
-      "thumbnail" : "voxel-flow.png",
-      // "flickr"    : "72157650186586300",
-      "downloads" : [
-        { "href"  : "https://drive.google.com/file/d/1gM7kg4YZ8bigRYp1qxPYPqTSTJpfoemh/view?usp=sharing",
-          "desc"  : "Result-Sequence-1"
-        }
-      ],
-    },
-
     { "key"       : "2016-cross-modality",
       // "bibtex"    : "lwtd2013-web-based-swmaps.bib",
       "title"     : "Cross Modality Supervision Transfer based Depth Estimation",
