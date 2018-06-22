@@ -15,7 +15,7 @@
     <br><br>
     Besides research, I also like to tinker with various new sensors like <a href='https://en.wikipedia.org/wiki/Tango_(platform)' style='color: rgb(0,0,225)'>Google Tango</a>,
     <a href='https://www.oculus.com/rift/' style='color: rgb(0,0,225)'>Oculus Rift</a>, <a href='https://www.leapmotion.com/' style='color: rgb(0,0,225)'>Leap Motion</a> in my free time. 
-    Sometimes, I try to post about some of these experiments on <a style='color: rgb(0,0,225)' href='https://www.youtube.com/channel/UCn_clMMllo53u6S8ZjF56oQ'>Youtube</a>. I believe in <a style='color: rgb(0,0,225)' href='https://en.wikipedia.org/wiki/Free_and_open-source_software'>FOSS</a> and try to write <a style='color: rgb(0,0,225)' href='https://graphics-resources.info/'>posts</a> and <a style='color: rgb(0,0,225)' href='https://www.sitepoint.com/how-to-build-an-ar-android-app-with-vuforia-and-unity/'>tutorials</a> about these experiments."
+    Sometimes, I try to post about some of these experiments on <a style='color: rgb(0,0,225)' href='https://www.youtube.com/channel/UCn_clMMllo53u6S8ZjF56oQ'>Youtube</a>. I like open-source philosophy and hence I also try to open-source some of my experiments on github."
   },
 
   "news" : {
@@ -29,9 +29,7 @@
     <br>
     <strong>-</strong> I will be interning at Graphdeco, Inria Sophia Antipolis for the summer of 2016.
     "
-  },
-
-  "picture" : "picture.jpg"
+  }
 }
 
 
